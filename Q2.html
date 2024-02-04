@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .table{
+        margin: 0 auto;
+       }
+    table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 70vw;
+        }
+       .design {
+            background-color: red;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <tr class="design">
+            <th>Absolute</th>
+            <th>Relative</th>
+        </tr>
+
+        <tr>
+            <td>syntex 
+                { position : absolute}</td>
+            <td>syntex 
+                { position : relative}</td>
+        </tr>
+        <tr>
+            <td>An element with position: absolute; will cause it to adjust its position with respect to its parent. If no parent is present, then it uses the document body as parent.</td>
+            <td>Setting the top, right, bottom, and left properties of an element with position: relative; property will cause it to adjust from its normal position.</td>
+        </tr>
+        <tr>
+            <td>an absolute or fixed position moves the element, but does not consume any layout space</td>
+            <td>a relative position moves the element, but still consumes some space in the original position.</td>
+        </tr>
+    </table>
+</body>
+</html>
